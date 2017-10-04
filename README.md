@@ -57,8 +57,9 @@ Or try to compile the source code as what I did to learn something about MinGW c
 6) goto subfolder at your source code \bin\Windows\, there is the exe file compiled  
 done  
 
-The author also release version 3.0 just two days ago, used QT for GUI, what a coincident that I am looking for something available tools and this is, however, Win10 64bit is able to run this version 3.0 and showing more elegant GUI, but the XP PC has showing messagebox with something missing entry point of DLL and then it show nothing but quit silently by Windows default fault handler;
-Win10, ok  
+The author also release version 3.0 just two days ago, used QT for GUI, what a coincident that I am looking for something available tools and this is, however, Win10 64bit is able to run this version 3.0 and showing more elegant GUI, but the XP PC has showing messagebox with something missing entry point of DLL and then it show nothing but quit silently by Windows default fault handler;  
+.  
+Ponyprog V3, Win10, ok  
 ![alt text](https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification/blob/master/ponyprog3.0_win10_ok.jpg)  
 ```
 To embeds image to this read.me  
@@ -69,7 +70,8 @@ To embeds image to this read.me
 .  
 
 
-XP, no good  
+
+Ponyprog V3, Windows XP, no good  
 ![alt text](https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification/blob/master/ponyprog3.0_XP_ng.jpg)  
 ```
 To embeds image to this read.me  
