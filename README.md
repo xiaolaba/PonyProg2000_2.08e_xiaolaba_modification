@@ -15,16 +15,17 @@ Original and complete source code https://sourceforge.net/projects/ponyprog/
 ### I need something simple and dedicated PC used, not general  
 PC : Fujitsu S6311 notebook with docking, LPT port and COM port are avalaible for PonyProg2000 & easy, usually, USB-Serial COM port is not not working.
 
-Note:
+Note:  
 The notebook, LPT Data port output only 3.3V, ECP/Bi-directional/Standard all three mode in BIOS setting has no any effect to uses with PonyProg; if you want tweaking LPT port with some manually testing to confirm the validaity, try this http://stadi.hu/sw/lptdebug_en.html;  
+.  
 The notebook, LPT Status port, Pin#12 / Pin#13 has interal pull-up and voltage level is 5V, so EEPROM SCL / SDA has always 5V presented, does not matter the battery is connected or removed;   
 
 
 
 ### To download source code
-https://sourceforge.net/projects/ponyprog/files/PonyProg%20Windows%20setup/2.08e/PonyProgV208e.zip/download
+https://sourceforge.net/projects/ponyprog/files/PonyProg%20Windows%20setup/2.08e/PonyProgV208e.zip/download  
 
-# To modify two files for the source code, detail is able to see each file with possible comments
+### To modify two files for the source code, detail is able to see each file with possible comments
 1) globals.h, for help menu and display something about this modification task;
 2) easyi2c_interf.cpp, for VCC control bit and the timing of power up & down, the mostlikely, enable VCC before read/write EEPROM, sustain VCC at each SCL/SDA bit time, then turn off VCC when close the port;  
 That is the all to do.
