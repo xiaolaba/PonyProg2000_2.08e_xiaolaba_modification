@@ -1,6 +1,13 @@
 # PonyProg2000_2.08e_xiaolaba_modification
 PonyProg2000, an open source Serial device Programmer, my clone of EasyI2C and only LPT port used, include power control (VCC) without tweaking the battery or switch every time for programming the EEPROM device.  
 
+![alt text](https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification/blob/master/ponyprog2000-xiaolaba-2.08e_ok.jpg) 
+To embeds image to this read.me  
+![alt text](http://url/to/img.png)  
+
+
+Original and complete source code https://sourceforge.net/projects/ponyprog/
+
 # I need something simple and dedicated PC used, not general  
 PC : Fujitsu S6311 notebook with docking, LPT port and COM port are avalaible for PonyProg2000 & easy, usually, USB-Serial COM is not not working.
 
@@ -34,6 +41,8 @@ easyi2c_interf.cpp
 ```  
 
 As the original author has release 2.08d and 2.08e (BIN and source code) recently, both versions are compiled t fit my own need, here is the copy, just download & rename ponyprog2000-xiaolaba-2.08e_exe to be ponyprog2000-xiaolaba-2.08e.exe, then good to go;  
+https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification/blob/master/ponyprog2000-xiaolaba-2.08d_exe  
+https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification/blob/master/ponyprog2000-xiaolaba-2.08e_exe  
 
 Or try to compile the source code as what I did to learn something about MinGW cross compiling in Microsoft Windows, follow the original author and the readme. There is briefing,  
 1) install MinGW  
@@ -45,3 +54,14 @@ Or try to compile the source code as what I did to learn something about MinGW c
 done  
 
 The author also release version 3.0 just two days ago, used QT for GUI, what a coincident that I am looking for something available tools and this is, however, Win10 64bit is able to run this version 3.0 and showing more elegant GUI, but the XP PC has showing messagebox with something missing entry point of DLL and then it show nothing but quit silently by Windows default fault handler;
+Win10, ok  
+![alt text](https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification/blob/master/ponyprog3.0_win10_ok.jpg)  
+To embeds image to this read.me  
+![alt text](http://url/to/img.png)  
+
+
+XP, no good  
+![alt text](https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification/blob/master/ponyprog3.0_XP_ng.jpg)  
+To embeds image to this read.me  
+![alt text](http://url/to/img.png)  
+
