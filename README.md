@@ -1,11 +1,11 @@
 # PonyProg2000_2.08e_xiaolaba_modification
-PonyProg2000, an open source Serial device Programmer, my clone of EasyI2C and only LPT port used, include power control without tweaking the battery or switch every time for programming the EEPROM device.  
+PonyProg2000, an open source Serial device Programmer, my clone of EasyI2C and only LPT port used, include power control (VCC) without tweaking the battery or switch every time for programming the EEPROM device.  
 
 # I need something simple and dedicated PC used, not general  
-PC : Fujitsu S6311 notebook with docking, LPT port and COM port are avalaible for PonyProg2000 easy, usually, USB-Serial COM is not not working.
+PC : Fujitsu S6311 notebook with docking, LPT port and COM port are avalaible for PonyProg2000 & easy, usually, USB-Serial COM is not not working.
 
 Note:
-The notebook LPT Data port output only 3.3V, ECP/Bi-directional/Standard mode has no any effect to uses with PonyProg;  
+The notebook LPT Data port output only 3.3V, ECP/Bi-directional/Standard all three mode in BIOS setting has no any effect to uses with PonyProg; if you want tweaking LPT port with some manually test to confirm the validaity, try this http://stadi.hu/sw/lptdebug_en.html;  
 The notebook LPT Status port, Pin#12 / Pin#13 has interal pull-up and voltage level is 5V, so EEPROM SCL / SDA has always 5V presented, does not matter the battery is connected or removed;   
 
 
@@ -33,7 +33,7 @@ easyi2c_interf.cpp
 #define POWER	3		// DATA (pin 5), Bit 3, control power to 24xx, xiaolaba 2017-sep-02
 ```  
 
-As the original author has release 2.08d and 2.08e recently, both versions are compiled t fit my own need, here is the copy, just download & rename ponyprog2000-xiaolaba-2.08e_exe to be ponyprog2000-xiaolaba-2.08e.exe, then good to go;  
+As the original author has release 2.08d and 2.08e (BIN and source code) recently, both versions are compiled t fit my own need, here is the copy, just download & rename ponyprog2000-xiaolaba-2.08e_exe to be ponyprog2000-xiaolaba-2.08e.exe, then good to go;  
 
 Or try to compile the source code as what I did to learn something about MinGW cross compiling in Microsoft Windows, follow the original author and the readme. There is briefing,  
 1) install MinGW  
@@ -42,4 +42,6 @@ Or try to compile the source code as what I did to learn something about MinGW c
 4) make -f Makefile.win cleanall  
 5) make -f Makefile.win all
 6) goto subfolder at your source code \bin\Windows\, there is the exe file compiled
-done
+done  
+
+The author also release version 3.0 just two days ago, used QT for GUI, what a coincident that I am looking for something available tools and this is, however, Win10 64bit is able to run this version 3.0 and showing more elegant GUI, but the XP PC has showing messagebox with something missing entry point of DLL and then it show nothing but quit silently by Windows default fault handler;
