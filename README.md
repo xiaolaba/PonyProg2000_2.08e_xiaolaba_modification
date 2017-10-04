@@ -28,7 +28,10 @@ https://sourceforge.net/projects/ponyprog/files/PonyProg%20Windows%20setup/2.08e
 ### To modify two files for the source code, detail is able to see each file with possible comments
 1) globals.h, for help menu and display something about this modification task;
 2) easyi2c_interf.cpp, for VCC control bit and the timing of power up & down, the mostlikely, enable VCC before read/write EEPROM, sustain VCC at each SCL/SDA bit time, then turn off VCC when close the port;  
-That is the all to do.
+.  
+That is the all to do.  
+.  
+.  
 
 globals.h ([xiaolaba modified version, download here](/globals.h))  
 ```  
@@ -39,11 +42,14 @@ REF: https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification\r\n\
 REF: LPT debugger http://stadi.hu/sw/lptdebug_en.html\
 "
 ```  
-
+.  
+.  
 easyi2c_interf.cpp ([xiaolaba modified version, download here](/easyi2c_interf.cpp))   
 ```  
 #define POWER	3		// DATA (pin 5), Bit 3, control power to 24xx, xiaolaba 2017-sep-02
 ```  
+.  
+.  
 
 As the original author has release 2.08d and 2.08e (BIN and source code) recently, both versions are compiled to fit my own need, here is the copy, just download & rename ponyprog2000-xiaolaba-2.08e_exe to be ponyprog2000-xiaolaba-2.08e.exe, then good to go. Of course to install the original PonyProg to enable IO access & DLL, it has be done before this, unless you are not the first time to uses Ponyprog  with your PC;  
 https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification/blob/master/ponyprog2000-xiaolaba-2.08d_exe  
