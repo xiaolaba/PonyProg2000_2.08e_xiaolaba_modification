@@ -2,9 +2,10 @@
 PonyProg2000, an open source Serial device Programmer, my clone of EasyI2C and only LPT port used, include power control (VCC) without tweaking the battery or switch every time for programming the EEPROM device.  
 
 ![alt text](https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification/blob/master/ponyprog2000-xiaolaba-2.08e_ok.jpg) 
+```
 To embeds image to this read.me  
 ![alt text](http://url/to/img.png)  
-
+```
 
 Original and complete source code https://sourceforge.net/projects/ponyprog/
 
