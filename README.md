@@ -44,7 +44,7 @@ easyi2c_interf.cpp ([xiaolaba modified version, download here](/easyi2c_interf.c
 #define POWER	3		// DATA (pin 5), Bit 3, control power to 24xx, xiaolaba 2017-sep-02
 ```  
 
-As the original author has release 2.08d and 2.08e (BIN and source code) recently, both versions are compiled t fit my own need, here is the copy, just download & rename ponyprog2000-xiaolaba-2.08e_exe to be ponyprog2000-xiaolaba-2.08e.exe, then good to go;  
+As the original author has release 2.08d and 2.08e (BIN and source code) recently, both versions are compiled to fit my own need, here is the copy, just download & rename ponyprog2000-xiaolaba-2.08e_exe to be ponyprog2000-xiaolaba-2.08e.exe, then good to go. Of course to install the original PonyProg to enable IO access & DLL, it has be done before this, unless you are not the first time to uses Ponyprog  with your PC;  
 https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification/blob/master/ponyprog2000-xiaolaba-2.08d_exe  
 https://github.com/xiaolaba/PonyProg2000_2.08e_xiaolaba_modification/blob/master/ponyprog2000-xiaolaba-2.08e_exe  
 
