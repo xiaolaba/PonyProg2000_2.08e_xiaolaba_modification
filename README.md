@@ -54,7 +54,7 @@ Or try to compile the source code as what I did to learn something about MinGW c
 3) invoke MinGW (usually Msys installed as default)  
 4) make -f Makefile.win cleanall  
 5) make -f Makefile.win all
-6) goto subfolder at your source code \bin\Windows\, there is the exe file compiled
+6) goto subfolder at your source code \bin\Windows\, there is the exe file compiled  
 done  
 
 The author also release version 3.0 just two days ago, used QT for GUI, what a coincident that I am looking for something available tools and this is, however, Win10 64bit is able to run this version 3.0 and showing more elegant GUI, but the XP PC has showing messagebox with something missing entry point of DLL and then it show nothing but quit silently by Windows default fault handler;
