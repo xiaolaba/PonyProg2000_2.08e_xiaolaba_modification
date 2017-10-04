@@ -29,7 +29,7 @@ https://sourceforge.net/projects/ponyprog/files/PonyProg%20Windows%20setup/2.08e
 2) easyi2c_interf.cpp, for VCC control bit and the timing of power up & down, the mostlikely, enable VCC before read/write EEPROM, sustain VCC at each SCL/SDA bit time, then turn off VCC when close the port;  
 That is the all to do.
 
-globals.h  
+globals.h  download ([Contribution guidelines for this project](/globals.h))  
 ```  
 #define	AUTHORWEB	"http://www.LancOS.com\r\n\r\n\
 Compiled by Xiaolaba, 2017-oct-03, 測試中文, EasyI2C, LPT D4 (pin#5) used for auto power control\r\n\
